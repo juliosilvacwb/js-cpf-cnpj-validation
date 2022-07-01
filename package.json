@@ -1,0 +1,37 @@
+{
+  "name": "js-cpf-cnpj-validation",
+  "version": "1.0.0",
+  "description": "Lib to validate CPF or CNPJ",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest --no-cache",
+    "build": "tsc --declaration"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliosilvacwb/js-cpf-cnpj-validation.git"
+  },
+  "keywords": [
+    "cnpj",
+    "validate",
+    "validation",
+    "validar"
+  ],
+  "author": "Julio Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliosilvacwb/js-cpf-cnpj-validation/issues"
+  },
+  "homepage": "https://github.com/juliosilvacwb/js-cpf-cnpj-validation#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.4",
+    "jest": "^28.1.2",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "js-cnpj-validation": "^1.0.0",
+    "js-cpf-validation": "^1.2.0"
+  }
+}
